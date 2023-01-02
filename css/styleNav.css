@@ -1,0 +1,85 @@
+body {
+	margin: 0px;
+	background-color: black;
+}
+header {
+	width: 1519px;
+	height: 70px;
+	position: fixed;
+	background-color: white;
+}
+header > img {
+	width: 70px;
+	height: 70px;
+}
+header > p {
+	margin: 18px 0 0 550px;
+	display: inline-block;
+	color: teal;
+	font-size: 30px;
+	vertical-align: top;
+}
+nav {
+	width: 1508px;
+	height: 50px;
+	position: fixed;
+	top: 70px;
+	border: 5px solid black;
+	background-color: gray;
+}
+nav > div{
+	width: 592px;
+	margin: 5px 0 0 10px;
+}
+nav > div > p {
+	margin: 0;
+	color: white;
+}
+nav > ul {
+	width: 916px;
+	height: 50px;
+	float: right;
+	margin-top: -41.5px;
+	padding: 0;
+	display: inline-block;
+	background-color: black;
+	list-style: none;
+}
+nav > ul > li {
+	width: 12.56%;
+	height: 30px;
+	margin: 0px;
+	padding: 15px 5px 5px 5px;
+	position: absolute;
+	display: inline-block;
+	background-color: gray;
+	text-align: center;
+}
+#li1 {
+	left: 508px;
+}
+#li2 {
+	left: 708px;
+}
+#li3 {
+	left: 908px;
+}
+#li4 {
+	left: 1108px;
+}
+#li5 {
+	left: 1308px;
+}
+li > a {
+	color: white;
+	font-size: 20px;
+}
+nav > ul > li:hover {
+	background-color: white;
+}
+nav > ul > li:hover > a {
+	color: black;
+}
+a {
+	text-decoration: none;
+}

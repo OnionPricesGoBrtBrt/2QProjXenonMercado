@@ -1,0 +1,81 @@
+section{
+	width: 1000px;
+	height: 550px;
+	border: 5px solid white;
+	position: absolute;
+	top: 130px;
+	z-index: -1;
+	display: inline-block;
+	background-color: teal;
+}
+section > h1 {
+	font-size: 35px;
+	text-align: center;
+}
+section > article {
+	width: 920px;
+	height: 417.5px;
+	border: 3px solid black;
+	margin-left: 27px;
+	background-color: white;
+}
+section > article > p {
+	margin-left: 20px;
+	font-size: 27px;
+}
+aside {
+	width: 488.5px;
+	height: 550px;
+	border: 5px solid white;
+	position: absolute;
+	top: 130px;
+	left: 1015px;
+	z-index: -1;
+	display: inline-block;
+	background-color: #00AEAE;
+}
+aside > h1 {
+	font-size: 35px;
+	text-align: center;
+}
+aside > article {
+	width: 469px;
+	height: 96px;
+	border: 3px solid black;
+	margin: 10.5px 0 0 6.5px;
+	background-color: white;
+}
+aside > article > a > p {
+	position: absolute;
+	margin: 31px 0 0 6px;
+	color: black;
+	font-size: 28px;
+}
+#marginToCenter {
+	margin-left: 70px;
+}
+aside > article > img {
+	width: 84px;
+	height: 84px;
+	border: 3px solid black;
+	position: absolute;
+	margin: 3px 0 0 375px;
+
+}
+footer {
+	width: 1499px;
+	height: 230px;
+	position: absolute;
+	top: 690px;
+	z-index: -1;
+	border-top: 5px solid;
+	padding: 10px;
+	background-color: white;
+}
+footer > ul > li {
+	margin-top: 8px;
+}
+footer > ul > li > a {
+	color: black;
+	font-size: 20px;
+}

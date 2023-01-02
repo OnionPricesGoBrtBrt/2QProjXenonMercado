@@ -1,0 +1,126 @@
+section{
+	width: 1000px;
+	height: 550px;
+	border: 5px solid white;
+	position: absolute;
+	top: 130px;
+	z-index: -1;
+	display: inline-block;
+	background-color: teal;
+}
+video {
+	border: 3px solid black;
+	position: absolute;
+	margin: 22px 0 0 22px;
+	display: inline-block;
+	background-color: black;
+}
+section > img {
+	width: 370px;
+	height: 370px;
+	border: 3px solid black;
+	position: absolute;
+	top: 22px;
+	left: 574px;
+	background-color: white;
+}
+section > article {
+	width: 350px;
+	height: 90px;
+	border: 3px solid black;
+	position: absolute;
+	top: 412px;
+	left: 574px;
+	padding: 10px;
+	background-color: white;
+}
+section > article > p {
+	margin: 10px;
+	font-size: 15px;
+}
+aside {
+	width: 489px;
+	height: 550px;
+	border: 5px solid white;
+	position: absolute;
+	top: 130px;
+	left: 1015px;
+	z-index: -1;
+	display: inline-block;
+	background-color: #00AEAE;
+}
+
+aside > article {
+	width: 410px;
+	height: 480px;
+	border: 3px solid black;
+	position: absolute;
+	top: 22px;
+	left: 26.5px;
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+}
+aside > article > h1 {
+	margin: 10px 10px 0 10px;
+	font-size: 35px;
+	text-align: center;
+}
+aside > article > p {
+	font-size: 21px;
+}
+footer {
+	width: 1499px;
+	height: 560px;
+	border-top: 5px solid;
+	position: absolute;
+	top: 690px;
+	z-index: -1;
+	padding: 10px;
+	background-color: white;
+}
+footer > div {
+	display: inline-block;
+}
+footer > p {
+	position: absolute;
+	margin: -55px 0 0 60px;
+	font-size: 18px;
+}
+.sprite1 {
+	background: url('../images/Sprites.png') no-repeat -60px -5px;
+	width: 51px;
+	height: 51px;
+}
+.sprite1:hover {
+	background: url('../images/Sprites.png') no-repeat -60px -62px;
+	width: 51px;
+	height: 51px;
+}
+.sprite2 {
+	background: url('../images/Sprites.png') no-repeat -399px -5px;
+	width: 51px;
+	height: 51px;
+}
+.sprite2:hover {
+	background: url('../images/Sprites.png') no-repeat -399px -62px;
+	width: 51px;
+	height: 51px;
+}
+.sprite3 {
+	background: url('../images/Sprites.png') no-repeat -3px -5px;
+	width: 51px;
+	height: 51px;
+}
+.sprite3:hover {
+	background: url('../images/Sprites.png') no-repeat -3px -62px;
+	width: 51px;
+	height: 51px;
+}
+footer > ul > li {
+	margin-top: 8px;
+}
+footer > ul > li > a {
+	color: black;
+	font-size: 20px;
+}
